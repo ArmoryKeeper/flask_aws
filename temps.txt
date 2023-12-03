@@ -1,0 +1,5 @@
+{
+    "GPU Core" : "51.0C"
+    "GPU Fan" : "0.0RPM"
+    "CPU Package" : "75.5C"   
+}
