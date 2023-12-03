@@ -1,5 +1,3 @@
-{
-    "GPU Core" : "51.0C"
-    "GPU Fan" : "0.0RPM"
-    "CPU Package" : "75.5C"   
-}
+Hardware Monitor: 
+
+{'GPU Core': '51.0C', 'GPU Fan': '0.0RPM', 'CPU Package': '31.5C'}

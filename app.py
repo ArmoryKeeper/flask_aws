@@ -11,6 +11,9 @@ temps_put_args.add_argument('CPU Package' , type=str)
 @app.route('/temps', methods=['PUT'])
 def temps():
     args = temps_put_args.parse_args()
+    with open('temps.txt', 'w', encoding='utf-8') as f:
+        f.write('Hardware Monitor: \n\n')
+        f.write(str(args))
     return jsonify(args), 200
 
 
